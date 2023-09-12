@@ -1,0 +1,40 @@
+.horizontallinks {
+    position: fixed;
+    list-style-type: none;
+    margin-top: 70px;
+    margin-left: 300px;
+    padding: 0;
+    font-size: 18px;
+    overflow: hidden;
+    background-color: white;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+ 
+  .verticallinks {
+    position: fixed;
+    list-style-type: none;
+    padding: 0;
+    font-size: 18px;
+    margin-left: 45px;
+    margin-top: 165px;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }

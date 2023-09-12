@@ -1,0 +1,42 @@
+
+.horizontal-navbar {
+    
+    color: #fff;
+    
+}
+
+.horizontal-navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.horizontal-navbar li {
+   
+    
+    float: left;
+}
+
+.horizontal-navbar a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+.horizontal-navbar a::after{
+    content:'|';
+    color:black;
+}
+.horizongtal-navbar li a.active{
+    background-color: #383734;
+    color: white;
+}
+
+.horizontal-navbar a:hover:not(.active){
+    background-color:#43413e ;
+    color: white;
+}
+.actives{
+    background-color:#43413e ;
+}
